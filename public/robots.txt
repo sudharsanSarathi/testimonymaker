@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://sudharsansarathi.github.io/testimonymaker/sitemap.xml
+Sitemap: https://testimonialmaker.in/sitemap.xml
