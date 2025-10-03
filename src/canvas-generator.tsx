@@ -830,25 +830,4 @@ export class CanvasImageGenerator {
     
     return roundedCanvas;
   }
-
-  // Helper method to load images
-  private loadImage(src: string): Promise<HTMLImageElement> {
-    return new Promise((resolve, reject) => {
-      const img = new Image();
-      img.crossOrigin = 'anonymous';
-      img.onload = () => resolve(img);
-      img.onerror = reject;
-      img.src = src;
-    });
-  }
-
-  // Helper method to format time for display
-  private formatTimeForDisplay(time24: string): string {
-    if (!time24) return "5:07 pm";
-    const [hours, minutes] = time24.split(':');
-    const hour24 = parseInt(hours);
-    const hour12 = hour24 === 0 ? 12 : hour24 > 12 ? hour24 - 12 : hour24;
-    const ampm = hour24 >= 12 ? 'pm' : 'am';
-    return `${hour12}:${minutes} ${ampm}`;
-  }
 }
