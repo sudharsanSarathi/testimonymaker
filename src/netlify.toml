@@ -1,0 +1,47 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Ensure robots.txt is served as text/plain
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain"
+    Cache-Control = "public, max-age=3600"
+
+# Ensure sitemaps are served as XML
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=3600"
+
+# Security headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Force correct content types
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
+  headers = {Content-Type = "text/plain"}
+
+[[redirects]]
+  from = "/sitemap*.xml"
+  to = "/sitemap*.xml"
+  status = 200
+  force = true
+  headers = {Content-Type = "application/xml"}
+
+# SPA routing fallback - must be last
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
