@@ -12,13 +12,37 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- WhatsApp Testimonial Maker Tool -->
-  <url>
-    <loc>https://testimonialmaker.in/whatsapp-testimonial-maker</loc>
-    <lastmod>2025-10-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+      <!-- WhatsApp Testimonial Maker Tool -->
+      <url>
+        <loc>https://testimonialmaker.in/whatsapp-testimonial-maker</loc>
+        <lastmod>2025-10-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+      </url>
+
+      <!-- WhatsApp Chat Maker -->
+      <url>
+        <loc>https://testimonialmaker.in/whatsapp-chat-maker</loc>
+        <lastmod>2025-10-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+      </url>
+
+      <!-- Fake Chat Generator -->
+      <url>
+        <loc>https://testimonialmaker.in/fake-chat-generator</loc>
+        <lastmod>2025-10-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+      </url>
+
+      <!-- WhatsApp Bubble Maker -->
+      <url>
+        <loc>https://testimonialmaker.in/whatsapp-bubble-maker</loc>
+        <lastmod>2025-10-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+      </url>
 
   <!-- Screenshot Highlighter -->
   <url>
