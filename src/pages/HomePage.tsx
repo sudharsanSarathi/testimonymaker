@@ -30,7 +30,7 @@ export function HomePage() {
   const homeStructuredData = {
     ...defaultStructuredData,
     "@type": ["WebApplication", "SoftwareApplication"],
-    "headline": "Testimonial Maker | WhatsApp Chat Maker | Fake Chat Generator - Create Stunning Chat Testimonials in Seconds",
+    "headline": "Testimonial Maker | WhatsApp Chat Maker | Chat Generator - Create Stunning Chat Testimonials in Seconds",
     "url": "https://testimonialmaker.in",
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -57,16 +57,14 @@ export function HomePage() {
   return (
     <>
       <SEOHead
-        title="Testimonial Maker | WhatsApp Chat Maker | Fake Chat Generator - Create Stunning Chat Testimonials in Seconds"
-        description="Create authentic WhatsApp testimonials, fake chat bubbles, and social proof instantly. Free WhatsApp chat maker, testimonial generator, and bubble creator with no watermarks. Upload screenshots, highlight text, and generate professional testimonials."
+        title="Testimonial Maker | WhatsApp Chat Maker | Chat Generator - Create Stunning Chat Testimonials in Seconds"
+        description="Create authentic WhatsApp testimonials, chat bubbles, and social proof instantly. Free WhatsApp chat maker, testimonial generator, and bubble creator with no watermarks. Upload screenshots, highlight text, and generate professional testimonials."
         keywords={[
           "testimonial maker",
           "whatsapp chat maker",
-          "whatsapp fake chat",
           "whatsapp bubble",
           "whatsapp testimonial maker",
           "testimonial generator",
-          "fake chat generator",
           "whatsapp chat generator",
           "bubble maker",
           "chat bubble creator",
@@ -106,14 +104,14 @@ export function HomePage() {
               </h1>
               
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Create authentic WhatsApp testimonials, fake chat bubbles, and social proof instantly. 
+                Create authentic WhatsApp testimonials, chat bubbles, and social proof instantly. 
                 Free WhatsApp chat maker, testimonial generator, and bubble creator - perfect for marketing and building trust.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                 <Link to="/whatsapp-testimonial-maker">
                   <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-medium rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 flex items-center gap-2">
-                    Create Fake Chat Now
+                    Create Chat Now
                     <ArrowRight className="w-5 h-5" />
                   </Button>
                 </Link>
@@ -194,7 +192,7 @@ export function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link to="/whatsapp-testimonial-maker">
                 <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 text-lg font-medium rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 flex items-center gap-2">
-                  Create Fake Chat Now
+                  Create Chat Now
                   <ArrowRight className="w-5 h-5" />
                 </Button>
               </Link>
