@@ -102,7 +102,7 @@ function DocumentHead() {
       }
     };
     
-    updateOrCreateMeta('robots', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    updateOrCreateMeta('robots', 'index, follow');
     updateOrCreateMeta('googlebot', 'index, follow');
     updateOrCreateMeta('bingbot', 'index, follow');
     

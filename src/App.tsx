@@ -411,8 +411,8 @@ function DocumentHead() {
       }
     };
     
-    // Force proper indexing directives
-    updateOrCreateMeta('robots', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    // Force proper indexing directives - simplified to avoid conflicts
+    updateOrCreateMeta('robots', 'index, follow');
     updateOrCreateMeta('googlebot', 'index, follow');
     updateOrCreateMeta('bingbot', 'index, follow');
     

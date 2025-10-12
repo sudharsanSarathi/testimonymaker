@@ -57,8 +57,8 @@ export function SEOHead({
     updateOrCreateMeta('keywords', keywords.join(', '));
     updateOrCreateMeta('author', 'WhatsApp Testimonial Maker');
     
-    // Explicitly set robots meta tags for indexing
-    updateOrCreateMeta('robots', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    // Explicitly set robots meta tags for indexing - simplified to avoid conflicts
+    updateOrCreateMeta('robots', 'index, follow');
     updateOrCreateMeta('googlebot', 'index, follow');
     updateOrCreateMeta('bingbot', 'index, follow');
     
